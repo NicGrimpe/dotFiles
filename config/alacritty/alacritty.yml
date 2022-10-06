@@ -1,7 +1,6 @@
 # Configuration for Alacritty
 
 env:
-  varSetByAlacritty: Hello World!
   TERM: alacritty
 
 window:
