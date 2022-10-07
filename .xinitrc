@@ -7,7 +7,6 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 JAVA_HOME=/usr/lib64/jvm/java-18-openjdk/bin/java
 
 export PATH="$PATH:/home/nic/.local/bin"
-
 export XDG_CONFIG_HOME="/home/nic/.config"
 export XDG_DATA_HOME="/home/nic/.local/share"
 
