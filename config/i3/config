@@ -23,7 +23,7 @@ bindsym $mod+Shift+s exec /home/nic/scripts/screenGrab.sh
 bindsym $mod+Return exec --no-startup-id alacritty 
 
 # Suspend system
-bindsym $mod+Shift+i exec --no-startup-id systemctl suspend
+bindsym $mod+Shift+i exec --no-startup-id slock 
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -118,7 +118,10 @@ bindsym $mod+r mode "resize"
 
 
 # bar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+bar {
+        status_command i3status
+}
 
 # Colors
 set $primary    #8E44AD
